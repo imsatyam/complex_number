@@ -1,0 +1,24 @@
+complex_number
+----------------------------------------------------------
+----------------------------------------------------------
+
+This is the implementation of an immutable ComplexNumber datatype. 
+Methods are added for various arithematic, logarithmic and trigonometric operations of complex numbers.
+
+Data set used for verification:
+
+a            = 10.0 + 12.0i
+b            = -6.0 + 8.0i
+Re(a)        = 10.0
+Im(a)        = 12.0
+a + b        = 4.0 + 20.0i
+a - b        = 16.0 + 4.0i
+a * b        = -156.0 + 8.0i
+a / b        = 0.36 - 1.52i
+Recip(a)     = 0.040983606557377046 - 0.04918032786885246i
+conj(a)      = 10.0 - 12.0i
+|a|          = 15.620499351813308
+sin(a)       = -44271.02121683838 - 68281.45584765362i
+cos(a)       = -68281.45585280907 + 44271.02121349579i
+tan(a)       = 6.893008386299471E-11 + 0.9999999999691886i
+exp(a)       = 18587.12035783348 - 11818.80502475621i
